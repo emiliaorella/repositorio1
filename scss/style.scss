@@ -289,8 +289,7 @@ p {
 }
 
 .fotoCelu__celu{
-	display: block;
-	width: 15%;
+	display: flex;
 	transition: 0.5s;
 	box-sizing: border-box;
 	margin: 5px auto;
