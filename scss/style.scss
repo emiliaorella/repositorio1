@@ -7,7 +7,10 @@ $fontDos: 'Galada', cursive;
 
 
 *{margin:0; padding: 0; list-style: none; text-decoration: none; box-sizing: border-box}
-
+.no-gutters {
+	margin: 0;
+	padding: 0;
+}
 
 .header__top {
     display: flex;
@@ -103,7 +106,8 @@ $fontDos: 'Galada', cursive;
 		display: flex;
 		flex-direction: column;
 		font-size: 20px;
-		padding: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 		font-family: $fontUno;
 		color: $colorUno;
 		justify-content: center;
@@ -265,7 +269,6 @@ p {
 		display: flex;
 		flex-direction: column;
 		font-size: 20px;
-		padding: 20px;
 		text-align: center;
 		font-family: $fontUno;
 	}
@@ -291,7 +294,6 @@ p {
 	transition: 0.5s;
 	box-sizing: border-box;
 	margin: 5px auto;
-	border-radius: 15px;
 }
 
 .fotoCelu__celu:hover {
@@ -309,7 +311,6 @@ p {
 	.fotoCelu__mobile {
 		display: flex;
 		flex-direction: column;
-		padding: 40px;
 		background-image: url(../img/122-01.png);
 	}
 }
@@ -356,7 +357,6 @@ p {
 	color: white;
 	display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -440,7 +440,6 @@ hr {
 	font-family: $fontUno;
 	justify-content: center;
 	text-align: center;
-	padding: 10px;
 	color: white;
 }
 
@@ -465,9 +464,6 @@ hr {
 @media (max-width: 800px) {
 	.footer {
 		display: none;
-	}
-	.footer_icons {
-		background-color: $colorUno;
 	}
 
 	.icons {
@@ -721,10 +717,7 @@ hr {
 	  padding-top: 100px;
 }
 
-p {
-	padding: 10px;
 
-}
 
 .cards__mobile {
 	display: none;
@@ -741,18 +734,26 @@ p {
 		padding-top: 20px;
 		padding-bottom: 20px;
 		background-image: url(../img/122-01.png);
-		margin: none;
-		width: 450px;
-	}
-	.flip-card {
-		background-color: transparent;
-		padding-right: 20px;
-		border: none;
-		perspective: 1000px; 
-		width: 450px;
+		align-items: center;
+		
 	}
 }
 
+.card {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 100%;
+	align-items: center;
+	padding-left: 20px;
+	justify-content: center;
+	border: 10px;
+}
+
+.card-text {
+
+	text-align: center;
+}
 
 .infoVerdef {	
 	padding-right: 300px;

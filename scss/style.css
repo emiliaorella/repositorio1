@@ -7,6 +7,11 @@
           box-sizing: border-box;
 }
 
+.no-gutters {
+  margin: 0;
+  padding: 0;
+}
+
 .header__top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -146,7 +151,8 @@
         -ms-flex-direction: column;
             flex-direction: column;
     font-size: 20px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: "Abel", sans-serif;
     color: #595959;
     -webkit-box-pack: center;
@@ -341,7 +347,6 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
     font-size: 20px;
-    padding: 20px;
     text-align: center;
     font-family: "Abel", sans-serif;
   }
@@ -374,7 +379,6 @@ p {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 5px auto;
-  border-radius: 15px;
 }
 
 .fotoCelu__celu:hover {
@@ -398,7 +402,6 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 40px;
     background-image: url(../img/122-01.png);
   }
 }
@@ -461,8 +464,6 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -580,7 +581,6 @@ hr {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  padding: 10px;
   color: white;
 }
 
@@ -608,9 +608,6 @@ hr {
 @media (max-width: 800px) {
   .footer {
     display: none;
-  }
-  .footer_icons {
-    background-color: #595959;
   }
   .icons {
     display: -webkit-box;
@@ -949,10 +946,6 @@ hr {
   padding-top: 100px;
 }
 
-p {
-  padding: 10px;
-}
-
 .cards__mobile {
   display: none;
 }
@@ -973,17 +966,34 @@ p {
     padding-top: 20px;
     padding-bottom: 20px;
     background-image: url(../img/122-01.png);
-    margin: none;
-    width: 450px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  .flip-card {
-    background-color: transparent;
-    padding-right: 20px;
-    border: none;
-    -webkit-perspective: 1000px;
-            perspective: 1000px;
-    width: 450px;
-  }
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 10px;
+}
+
+.card-text {
+  text-align: center;
 }
 
 .infoVerdef {
