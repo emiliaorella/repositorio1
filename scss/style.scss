@@ -281,18 +281,17 @@ p {
 .fotoCelu {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	background-image: url(../img/122-01.png);
 	margin: 0;
 	padding: 0;
-
 }
 
 .fotoCelu__celu{
 	display: flex;
 	transition: 0.5s;
 	box-sizing: border-box;
-	margin: 5px auto;
+	justify-content: space-evenly;
 }
 
 .fotoCelu__celu:hover {
@@ -317,6 +316,7 @@ p {
 .foto__ubicacion {
 		display: flex;
 		flex-direction: row;
+		justify-content: space-evenly;
 }
 
 .footer {
