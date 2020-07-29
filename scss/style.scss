@@ -744,7 +744,7 @@ hr {
 	height: auto;
 	width: 100%;
 	align-items: center;
-	padding-left: 20px;
+	padding: 0;
 	justify-content: center;
 	border: 10px;
 }
@@ -809,3 +809,6 @@ hr {
 	font-size: 18px;
 }
 
+.zero {
+	padding: 0;
+}
