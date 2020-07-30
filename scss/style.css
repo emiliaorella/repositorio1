@@ -1066,4 +1066,8 @@ hr {
   font-family: "Abel", sans-serif;
   font-size: 18px;
 }
+
+.zero {
+  padding: 0;
+}
 /*# sourceMappingURL=style.css.map */
