@@ -24,7 +24,6 @@ $fontDos: 'Galada', cursive;
 .header__topMobile {
     display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
 	justify-content: flex-end;
     background-color: $colorUno;
     height: 30px;
@@ -84,7 +83,6 @@ $fontDos: 'Galada', cursive;
 .nav {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
 	justify-content: center;
 	font-size: 20px;
 	padding-top: 20px;
@@ -111,8 +109,7 @@ $fontDos: 'Galada', cursive;
 		color: $colorUno;
 		justify-content: center;
 		text-align: center;
-		background-color: white;
-		outline: none;
+		list-style: none;
  	}
 }
 
@@ -220,6 +217,8 @@ h1 {
 	padding-top: 100px;
 	font-family: $fontDos;
 	margin: 0;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 h2 {
 	text-align: center;
@@ -235,8 +234,8 @@ h3 {
 }
 
 p {
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
 	font-family: $fontUno;
 }
 
@@ -270,6 +269,7 @@ p {
 		font-size: 20px;
 		text-align: center;
 		font-family: $fontUno;
+		padding: 40px;
 	}
 }
 
@@ -320,6 +320,7 @@ p {
 
 .footer {
 	background-color: $colorUno;
+	list-style: none;
 }
 
 .info ul {
@@ -332,6 +333,7 @@ p {
 	padding-top: 60px;
 	color: white;
 	background-image: url(img/7.png);
+	list-style: none;
 }
 
 .info ul:hover {
@@ -349,6 +351,7 @@ p {
 	font-family: $fontUno;
 	justify-content: center;
 	color: white;
+	list-style: none;
 }
 
 .news {
@@ -471,6 +474,7 @@ hr {
 		justify-content: center;
 		padding-top: 20px;
 		padding-bottom: 20px;
+		list-style: none;
 	}
 
 	.copyright__mobile {
@@ -728,30 +732,24 @@ hr {
 	.cards__mobile {
 		display: flex;
 		flex-direction: column;
-		margin: none;
 		padding-top: 20px;
 		padding-bottom: 20px;
 		background-image: url(../img/122-01.png);
-		align-items: center;
-		
+		width: 300px;	
+
+
+
 	}
+	.card {
+		display: inline-block;
+		justify-content: center;
+		border-style: groove;
+		margin-left: auto;
+		margin-right: auto;
+		}
 }
 
-.card {
-	display: flex;
-	flex-direction: column;
-	height: auto;
-	width: 100%;
-	align-items: center;
-	padding: 0;
-	justify-content: center;
-	border: 10px;
-}
 
-.card-text {
-
-	text-align: center;
-}
 
 .infoVerdef {	
 	padding-right: 300px;
