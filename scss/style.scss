@@ -198,11 +198,7 @@ $fontDos: 'Galada', cursive;
 	}
 }
 
-.animate__flipInX{
-	animation: flipInX; 
-	animation-duration: 2s;
-	animation-direction: alternate;
-}
+
   
 .queHacemos:hover { 
 	transform: scale(1.05);
@@ -237,6 +233,7 @@ p {
 	padding-left: 40px;
 	padding-right: 40px;
 	font-family: $fontUno;
+	text-align: center;
 }
 
 .info {
@@ -579,13 +576,11 @@ hr {
 	text-align: center;
 	padding-left: 200px;
 	padding-right: 200px;
-	outline: none;
 }
 
 .boton__contacto:hover {
 	transform: scale(1.1);
 	color: $colorDos;
-	outline: none;
 }
 
 .formulario__mobile {
@@ -736,9 +731,6 @@ hr {
 		padding-bottom: 20px;
 		background-image: url(../img/122-01.png);
 		width: 300px;	
-
-
-
 	}
 	.card {
 		display: inline-block;
@@ -809,3 +801,41 @@ hr {
 .zero {
 	padding: 0;
 }
+
+.fotoCard {
+	display: none;
+}
+
+@media (max-width: 800px) {
+	.fotoCard {
+		display: flex;
+		flex-direction: column;
+		background-image: url(../img/122-01.png);
+		margin: 10%;
+		
+	}
+	.fotoCentrada {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		box-shadow: 2px 2px 10px $colorTres;
+		animation-delay: 2s;
+	}
+	.fotoCentradaDos {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		box-shadow: 2px 2px 10px $colorTres;
+		padding-top: 20px;
+		animation-delay: 3s;
+	}
+	.fotoCentradaTres {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		box-shadow: 2px 2px 10px $colorTres;
+		padding-top: 20px;
+		animation-delay: 4s;
+	}
+}
+

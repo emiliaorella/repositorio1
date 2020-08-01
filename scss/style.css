@@ -247,15 +247,6 @@
   }
 }
 
-.animate__flipInX {
-  -webkit-animation: flipInX;
-          animation: flipInX;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-}
-
 .queHacemos:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
@@ -292,6 +283,7 @@ p {
   padding-left: 40px;
   padding-right: 40px;
   font-family: "Abel", sans-serif;
+  text-align: center;
 }
 
 .info {
@@ -759,14 +751,12 @@ hr {
   text-align: center;
   padding-left: 200px;
   padding-right: 200px;
-  outline: none;
 }
 
 .boton__contacto:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: #ff7f50;
-  outline: none;
 }
 
 .formulario__mobile {
@@ -1042,5 +1032,73 @@ hr {
 
 .zero {
   padding: 0;
+}
+
+.fotoCard {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .fotoCard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: url(../img/122-01.png);
+    margin: 10%;
+  }
+  .fotoCentrada {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-shadow: 2px 2px 10px #d6d4d4;
+            box-shadow: 2px 2px 10px #d6d4d4;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+  }
+  .fotoCentradaDos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-shadow: 2px 2px 10px #d6d4d4;
+            box-shadow: 2px 2px 10px #d6d4d4;
+    padding-top: 20px;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+  }
+  .fotoCentradaTres {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-shadow: 2px 2px 10px #d6d4d4;
+            box-shadow: 2px 2px 10px #d6d4d4;
+    padding-top: 20px;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
+  }
 }
 /*# sourceMappingURL=style.css.map */
