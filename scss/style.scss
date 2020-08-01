@@ -60,7 +60,7 @@ $fontDos: 'Galada', cursive;
 	flex-direction: row;
 	justify-content: center;
 	padding-top: 20px;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	transition: 0.5s;
 }
 
@@ -836,6 +836,18 @@ hr {
 		box-shadow: 2px 2px 10px $colorTres;
 		padding-top: 20px;
 		animation-delay: 3s;
+	}
+	.fotoCentrada img {
+		width: 100%;
+		height: auto;
+	}
+	.fotoCentradaDos img {
+		width: 100%;
+		height: auto;
+	}
+	.fotoCentradaTres img {
+		width: 100%;
+		height: auto;
 	}
 }
 
