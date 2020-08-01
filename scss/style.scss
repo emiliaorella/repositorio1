@@ -811,8 +811,14 @@ hr {
 		display: flex;
 		flex-direction: column;
 		background-image: url(../img/122-01.png);
-		margin: 5%;
+		align-items: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 85%;
+		height: auto;
+		margin:  auto;
 		
+	
 	}
 	.fotoCentrada {
 		display: flex;
@@ -820,22 +826,23 @@ hr {
 		justify-content: center;
 		box-shadow: 2px 2px 10px $colorTres;
 		animation-delay: 1s;
+		
 	}
 	.fotoCentradaDos {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		box-shadow: 2px 2px 10px $colorTres;
-		padding-top: 20px;
 		animation-delay: 2s;
+		
 	}
 	.fotoCentradaTres {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		box-shadow: 2px 2px 10px $colorTres;
-		padding-top: 20px;
 		animation-delay: 3s;
+		
 	}
 	.fotoCentrada img {
 		width: 100%;
