@@ -811,7 +811,7 @@ hr {
 		display: flex;
 		flex-direction: column;
 		background-image: url(../img/122-01.png);
-		margin: 10%;
+		margin: 5%;
 		
 	}
 	.fotoCentrada {
@@ -819,7 +819,7 @@ hr {
 		flex-direction: column;
 		justify-content: center;
 		box-shadow: 2px 2px 10px $colorTres;
-		animation-delay: 2s;
+		animation-delay: 1s;
 	}
 	.fotoCentradaDos {
 		display: flex;
@@ -827,7 +827,7 @@ hr {
 		justify-content: center;
 		box-shadow: 2px 2px 10px $colorTres;
 		padding-top: 20px;
-		animation-delay: 3s;
+		animation-delay: 2s;
 	}
 	.fotoCentradaTres {
 		display: flex;
@@ -835,7 +835,7 @@ hr {
 		justify-content: center;
 		box-shadow: 2px 2px 10px $colorTres;
 		padding-top: 20px;
-		animation-delay: 4s;
+		animation-delay: 3s;
 	}
 }
 
