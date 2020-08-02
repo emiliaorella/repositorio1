@@ -1012,6 +1012,9 @@ hr {
 }
 
 @media (max-width: 800px) {
+  .cards {
+    display: none;
+  }
   .fotoCard {
     display: -webkit-box;
     display: -ms-flexbox;
