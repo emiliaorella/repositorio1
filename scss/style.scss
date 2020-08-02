@@ -534,6 +534,7 @@ hr {
 	text-align: center;
 	align-items: center;
 	font-family: $fontUno;
+	background-image: url(../img/122-01.png);
 }
 
 .nombre__contacto	{
@@ -593,10 +594,16 @@ hr {
 	}
 
 	.formulario__mobile {
-		display: inline;
+		display: flex;
+		flex-direction: column;
 		text-align: center;
-		align-items: center;
+		justify-content: center;
 		font-family: $fontUno;
+		background-image: url(../img/122-01.png);
+		width: 85%;
+		height: auto;
+		margin:  auto;
+
 	}
 	.nombre__contacto__mobile	{
 		display: flex;
@@ -605,8 +612,6 @@ hr {
 		padding: 10px;
 		transition: 0.5s;
 		text-align: center;
-		padding-left: 10px;
-		padding-right: 10px;
 	}
 	
 	.nombre__contacto__mobile:hover {
@@ -619,8 +624,6 @@ hr {
 		padding: 10px;
 		transition: 0.5s;
 		text-align: center;
-		padding-left: 10px;
-		padding-right: 10px;
 	}
 	
 	.email__contacto__mobile:hover {
@@ -633,8 +636,6 @@ hr {
 		padding: 10px;
 		transition: 0.5s;
 		text-align: center;
-		padding-left: 10px;
-		padding-right: 10px;
 	}
 	
 	.mensaje__contacto__mobile:hover {
@@ -714,32 +715,6 @@ hr {
 	  padding-top: 100px;
 }
 
-
-
-.cards__mobile {
-	display: none;
-}
-
-@media (max-width: 800px) {
-	.cards {
-		display: none;
-	}
-	.cards__mobile {
-		display: flex;
-		flex-direction: column;
-		padding-top: 20px;
-		padding-bottom: 20px;
-		background-image: url(../img/122-01.png);
-		width: 300px;	
-	}
-	.card {
-		display: inline-block;
-		justify-content: center;
-		border-style: groove;
-		margin-left: auto;
-		margin-right: auto;
-		}
-}
 
 
 
@@ -856,5 +831,37 @@ hr {
 		width: 100%;
 		height: auto;
 	}
+}
+
+
+//como compro//
+.comoCompro {
+	background-image: url(../img/122-01.png);
+	padding-bottom: 40px;
+}
+
+.carouselInfo {
+	font-size: 15px;
+	color: $colorUno;
+}
+
+.numeros {
+	color: $colorUno;
+	font-size: 35px;
+	padding-top: 10px;
+}
+
+.carousel-caption {
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 20px;
+	
+}
+
+.finalCompra {
+	background-image: url(../img/122-01.png);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0;
 }
 

@@ -2,15 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
         content="Nous Prints, servicio de diseno grafico, tarjeteria, branding, invitaciones impresas, invitaciones online y regalería de bebes">
     <meta name="keywords"
         content="invitaciones, regalos, bebes, diseño, tarjetas, quince, marcas, logos, impreso, online, casamientos">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Contacto</title>
+    <title>Como compro en Nous</title>
+
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -27,6 +28,7 @@
     <link rel="stylesheet" href="../scss/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
 </head>
 
 <body>
@@ -40,25 +42,24 @@
         integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
         crossorigin="anonymous"></script>
 
-    <div class="container-fluid zero">
+    <div class="container-fluid margen zero">
         <!--header-->
         <header>
             <div class="row">
-                <div class="col-md-12 zero">
+                <div class="col-md-12 no-gutters zero">
                     <div class="header">
                         <div class="header__top">
-                            <a class="header__topTop" href="views/contacto.html">CONTACTO</a>
-                            <a class="header__topTop" href="../views/como comprar.html">COMO COMPRAR</a>
-                            <a class="header__topTop" href="../views/carrito.html">MI CARRITO</a>
+                            <a class="header__topTop" href="./views/contacto.html"> CONTACTO </a>
+                            <a class="header__topTop" href="./views/como-comprar.html"> COMO COMPRAR </a>
+                            <a class="header__topTop" href="./views/carrito.html"> MI CARRITO </a>
                         </div>
                     </div>
                 </div>
             </div>
-
             <!--header mobile-->
             <header>
                 <div class="row">
-                    <div class="col-md-12 zero">
+                    <div class="col-md-12 no-gutters zero">
                         <div class="header__mobile">
                             <div class="header__topMobile">
                                 <a class="header__topTop" href="./views/contacto.html"> CONTACTO </a>
@@ -68,23 +69,22 @@
                         </div>
                     </div>
                 </div>
-            <!--end header mobile-->
+                <!--end header mobile-->
 
-
+                <!--logo-->
                 <div class="row">
-                    <div class="col-md-12 zero">
+                    <div class="col-md-12 no-gutters">
                         <div class="headerMid">
                             <a href="../index.html"> <img width="100px" src="../img/nousg.png"> </a>
                         </div>
                     </div>
                 </div>
-
-
+                <!--end logo-->
 
                 <!--main header-->
                 <div class="row">
                     <div id="navbar">
-                        <div class="col-md-12 zero">
+                        <div class="col-md-12 no-gutters zero">
                             <ul class="nav">
                                 <li>
                                     <a class="nav__item" href="#">Bebés</a>
@@ -116,7 +116,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12 nav__mobile zero">
+                    <div class="col-xs-12 nav__mobile no-gutters">
                         <button data-toggle="collapse" data-target="#demo" class="button">+
                             <div id="demo" class="collapse">
                                 <ul class="nav__mobile">
@@ -153,70 +153,83 @@
             <!--end main header-->
             <!--end header-->
 
-            <!--formulario-->
+
             <div class="row">
-                <div class="col-md-12 zero">
-                    <div class="formularioContacto">
-                        <form action="#" method="post">
-                            <li class="nombre__contacto"><label for="name"> NOMBRE </label>
-                                <input type="text" name="nombre"></li>
-
-                            <li class="email__contacto"><label for="mail"> EMAIL </label>
-                                <input type="text" name="email"></li>
-
-                            <li class="mensaje__contacto "><label for="mensaje"> MENSAJE </label>
-                                <textarea cols="100" rows="10"> </textarea> </li>
-
-                            <li class="boton__contacto"><input type="submit" value="ENVIAR">
-                            </li>
-                        </form>
+                <div class="col-lg-12 no-gutters">
+                    <div class="comoCompro">
+                        <h1> Te gustaría saber como comprar?</h1>
+                        <h3>Seguí estas instrucciones</h3>
                     </div>
                 </div>
             </div>
-            <!--end formulario-->
 
-
-            <!--formulario mobile-->
+            <!--carrousel-->
             <div class="row">
-                <div class="col-md-12 zero">
-                    <div class="formulario__mobile">
-                        <form action="#" method="post">
-                            <li class="nombre__contacto__mobile"> <label for="name"> NOMBRE </label>
-                                <input type="text" name="nombre"></li>
+                <div class="col-md-12 no-gutters">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
 
-                            <li class="email__contacto__mobile"> <label for="mail"> EMAIL </label>
-                                <input type="text" name="email"></li>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="../img/como comprar/26.png">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1 class="numeros">1</h1>
+                                    <p class="carouselInfo">Elegí el modelo que mas te guste de nuestras secciones</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="../img/como comprar/27.png">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1 class="numeros">2</h1>
+                                    <p class="carouselInfo"> Seleccioná si las queres impresas o para enviar por whatsapp</p>
+                                </div>
+                            </div>
 
-                            <li class="mensaje__contacto__mobile"><label for="mensaje"> MENSAJE </label>
-                                <textarea rows="10"> </textarea> </li>
+                            <div class="item">
+                                <img src="../img/como comprar/28.png">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1 class="numeros">3</h1>
+                                    <p class="carouselInfo"> En caso de quererlas impresas seleccioná el tamaño y el tipo de papel</p>
+                                </div>
+                            </div>
 
-                            <li class="boton__contacto__mobile"><input type="submit" value="ENVIAR">
-                            </li>
-                        </form>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button"
+                            data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button"
+                            data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
             </div>
-            <!-- end formulario mobile-->
+            <!--end carrousel-->
 
 
-            <!--map-->
-            <div class="row">
-                <div class="col-md-12 zero">
-                    <div class="mapa">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.8069787310706!2d-57.947163208982!3d-34.91129314660618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e63939aaeeaf%3A0x57d81c5186e874cb!2sCalle%203%20911%2C%20La%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1594607414080!5m2!1ses!2sar"
-                            width="100%" height="700px" frameborder="0" style="border:0;" allowfullscreen=""
-                            aria-hidden="false" tabindex="0"></iframe>
 
-                    </div>
-                </div>
-            </div>
-            <!--end map-->
+<div class="row">
+    <div class="col-sm-12 col-lg-12 no-gutters">
+            <h2 class="finalCompra"> Y listo! Una vez que tengas todo seleccionado ponete en contacto conmigo y seguimos charlando.</h2>
+    </div>
+</div>
+
 
 
             <!--footer-->
             <div class="row footer">
-                <div class="col-md-3 col-xs-3 zero">
+                <div class="col-md-3 col-sm-3 no-gutters">
                     <div class="info">
                         <ul>
                             <h2>Info</h2>
@@ -231,9 +244,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-xs-6 zero">
+                <div class="col-md-6 col-sm-6 no-gutters">
                     <div class="news">
-                        <ul class="ya">
+                        <ul>
                             <h2>Newsletter</h2>
                             <h3>Queres recibir promos, novedades y descuentos de nuestra tienda?</h3>
                             <form action="#" method="post">
@@ -242,13 +255,13 @@
                                 <li class="email"><label for="mail"> EMAIL </label>
                                     <input type="text" name="email" size="50" style="height: 30px;"></li>
                                 <li class="boton"><input type="submit" value="SUSCRIBIRME!" size="50"
-                                        style="width: 900px; height: 30px;">
+                                        style="width: 800px; height: 30px;">
                                 </li>
                             </form>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3 col-xs-3 zero">
+                <div class="col-md-3 col-sm-3 no-gutters">
                     <div class="redes">
                         <ul>
                             <h2>Nuestras redes</h2>
@@ -275,8 +288,9 @@
 
             <!--footer xs-->
 
+
             <div class="row">
-                <div class="col-md-12 zero">
+                <div class="col-sm-12 no-gutters">
                     <div class="footer_mobile">
                         <ul class="icons">
                             <li class="redes__link"> <a href="https://instagram.com/nous.prints"> <img width="80px"
@@ -303,7 +317,12 @@
                 </div>
             </div>
 
-            <!--end footer xs-->
+
+
+
+
+
+
 
 
 
@@ -319,6 +338,14 @@
                     }
                 }
             </script>
+
+
+
+
+
+    </div>
+
+
 
 
 </body>
